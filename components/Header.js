@@ -26,7 +26,12 @@ function Header() {
         <HeaderItem title={`ACCOUNT`} Icon={UserIcon} />
       </div>
 
-      <Image src="https://links.papareact.com/ua6" width={200} height={100} />
+      <Image
+        src="https://links.papareact.com/ua6"
+        width={200}
+        height={100}
+        alt="HuluLogo"
+      />
     </header>
   );
 }
